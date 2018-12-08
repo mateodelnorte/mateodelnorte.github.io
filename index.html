@@ -171,12 +171,6 @@
                                             <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." >
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group mt-2">
-                                            <label for="subject" class="font-weight-bold">Subject</label>
-                                            <input type="text" class="form-control" id="subject" placeholder="Your Subject.." />
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -256,7 +250,6 @@
             $.post($("#contact_form").attr('action'), JSON.stringify({
                 name: $("#contact_form input[name='name']").val(),
                 email: $("#contact_form input[name='email']").val(),
-                phone: $("#contact_form input[name='subject']").val(),
                 message: $("#contact_form textarea[name='message']").val(),
                 'g-recaptcha-response': $("#contact_form textarea[name='g-recaptcha-response']").val()
             }), function (data) {
