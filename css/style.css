@@ -1076,9 +1076,9 @@ a {
     .home-bg,.h-100vh.jarallax,.h-100vh.bg-dark,.home-bg-slider .carousel-item{
         padding: 110px 0 170px 0;
     }
-    .h-100vh ,.home-bg-slider .carousel-item{
+    /* .h-100vh ,.home-bg-slider .carousel-item{
         height: auto;
-    }
+    } */
     .clip-home{
         clip-path:none;
     }
